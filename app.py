@@ -1,6 +1,6 @@
 import re
 from urllib.parse import unquote
-
+import os
 import dash
 from dash import html, dcc, dash_table
 import dash_bootstrap_components as dbc
@@ -627,4 +627,9 @@ def plot_country_charts(pathname, countries, indicator):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    if 'RENDER_EXTERNAL_URL' in os.environ:
+        port = int(os.environ.get('PORT', 10000))
+        app.run_server(host='0.0.0.0', port=port, debug=False)
+    else:
+        app.run_server(debug=True)
+
