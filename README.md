@@ -8,6 +8,18 @@ https://poverty-and-equity-database.onrender.com/
 
 The Poverty Data Dashboard is an interactive web application designed to provide deep insights into global poverty and equity data from the World Bank. This tool allows users to explore, visualize, and analyze poverty trends, income distribution, and various socioeconomic indicators across 170 economies, spanning from 1974 to 2019.
 
+## Screenshots
+
+![Image 1](screenshots/gini.png)
+
+![Image 2](screenshots/gini-worldbank.png)
+
+![Image 3](screenshots/incomesharedist.png)
+
+![Image 4](screenshots/povertygap.png)
+
+![Image 5](screenshots/cluster.png)
+
 ## Data Insights
 
 The Poverty Data Dashboard enables users to gain valuable insights such as:
