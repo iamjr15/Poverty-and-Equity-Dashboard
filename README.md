@@ -1,4 +1,4 @@
-# Poverty Data Dashboard
+# Poverty and Equity Dashboard
 
 ## Link
 
